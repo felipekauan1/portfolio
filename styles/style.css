@@ -69,6 +69,7 @@ header {
     display: none;
 }
 
+/* section */
 section {
     min-height: 100vh;
     display: flex;
@@ -78,6 +79,7 @@ section {
     padding: 0 9%;
 }
 
+/* container */
 .container {
     width: 100%;
     min-height: 100vh;
@@ -150,6 +152,7 @@ section {
     color: var(--main-color);
 }
 
+/* sub-title h2 */
 .sub-title {
     font-size: 3.9rem;
     font-family: "Space Mono", monospace;

@@ -193,27 +193,36 @@
             <h2 class="sub-title">Contato</h2>
             <div class="contact-content">
                 <!-- form -->
-                <form action="#">
+                <form action="https://formsubmit.co/c44cfac69f6321489627eb0699ead783" method="post">
                     <!-- input box -->
                     <div class="input-box">
                         <div class="input-field">
-                            <input type="text" placeholder="Nome Completo" required>
+                            <input type="text" name="name" placeholder="Nome Completo" required>
                         </div>
 
                         <div class="input-field">
-                            <input type="email" placeholder="E-mail" required>
+                            <input type="email" name="email" placeholder="E-mail" required>
                         </div>
                     </div>
 
                     <!-- text area field -->
                     <div class="textarea-field">
-                        <textarea cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+                        <textarea cols="30" rows="10" name="message" placeholder="Sua Mensagem" required></textarea>
                     </div>
 
                     <!-- btn box -->
                     <div class="btn-box">
                         <button type="submit" class="btn">Enviar</button>
                     </div>
+
+                    <!-- formsubmit -->
+                    <input type="hidden" name="_subject" value="Novo contato!">
+
+                    <input type="text" name="_honey" style="display:none">
+
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <input type="hidden" name="_next" value="thanks.html">
                 </form>
             </div>
         </div>
