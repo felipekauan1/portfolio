@@ -81,7 +81,7 @@ section {
 .container {
     width: 100%;
     min-height: 100vh;
-    padding: 9% 0;
+    padding: 7% 0;
 }
 
 /* home section */
@@ -233,6 +233,10 @@ section {
 }
 
 /* projects section */
+.projects {
+    background-color: var(--sc-color);
+}
+
 .projects-content {
     display: flex;
     align-items: center;
@@ -276,7 +280,7 @@ section {
 }
 
 .projects-text .btn-box .btn:hover {
-    background: var(--sc-color);
+    background: var(--bg-color);
     color: var(--main-color);
 }
 
@@ -392,6 +396,11 @@ section {
     /* html */
     html {
         font-size: 55%;
+    }
+
+    /* container */
+    .container {
+        padding: 9% 0;
     }
 }
 
