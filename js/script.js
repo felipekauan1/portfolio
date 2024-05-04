@@ -2,9 +2,16 @@
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
+// toggle icon and show navbar when click menu icon
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
+}
+
+// remove toggle icon and navbar when click navbar links
+navbar.onclick = () => {
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
 }
 
 // scroll sections
@@ -27,7 +34,3 @@ window.onscroll = () => {
         }
     })
 }
-
-// remove toggle icon
-menuIcon.classList.remove('bx-x'); // não está funcionando :(
-navbar.classList.remove('active'); // não está funcionando :(
