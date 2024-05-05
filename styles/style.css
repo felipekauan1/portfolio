@@ -483,6 +483,11 @@ section {
         display: block;
     }
 
+    /* container */
+    .container {
+        padding: 18% 0;
+    }
+
     /* home section */
     .home-container h1 {
         text-align: center;
@@ -565,6 +570,11 @@ section {
 }
 
 @media (max-width: 520px) {
+    /* container */
+    .container {
+        padding: 20% 0;
+    }
+
     /* home section */
     .home-container .btn-box {
         flex-direction: column;
@@ -595,6 +605,11 @@ section {
 }
 
 @media (max-width: 411px) {
+    /* container */
+    .container {
+        padding: 23% 0;
+    }
+
     /* skills section */
     .skills-grid-1 {
         gap: 2rem;
